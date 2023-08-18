@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 8vw;
+  align-items: center;
+}
+.logo {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav_container {
+}
+.nav_links_list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  /* font-size: 1.4rem; */
+}
+.nav_list_item {
+  cursor: pointer;
+}
+
+.nav_list_item > a {
+  text-decoration: none;
+  color: inherit;
+}
